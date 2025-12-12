@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+  --font-gruppo: "Gruppo", sans-serif;
+  --font-josefin: "Josefin Sans", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
