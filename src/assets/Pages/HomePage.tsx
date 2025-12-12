@@ -7,19 +7,19 @@ export default function HomePage() {
     <>
       <Header />
       <main
-        className="bg-cover"
+        className=" font-gruppo font-bold bg-cover "
         style={{ backgroundImage: "url('src/assets/Pictures/background.svg')" }}
       >
         <div className="grid grid-cols-2 px-4">
-          <h1 className="text-xl md:text-3xl">About me:</h1>
+          <h1 className="text-4xl  underline">About me:</h1>
           <a
             // href="#callAction"
-            className="flex justify-end hover:text-blue-800"
+            className="  text-xl flex justify-end hover:text-blue-800"
           >
             See my projects
           </a>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 px-4 gap-5 text-center items-center text-2xl">
+        <div className="grid grid-cols-2 md:grid-cols-3 px-4 gap-5 text-center items-center text-2xl md:text-4xl md:">
           <img
             className="px-8 w-auto rounded-[59%_41%_54%_46%/72%_20%_80%_28%]"
             src="src/assets/Pictures/Avatar.png"
