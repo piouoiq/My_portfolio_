@@ -7,21 +7,24 @@ export default function HomePage() {
     <>
       <Header />
       <main
-        className=" font-gruppo font-bold bg-cover "
+        className=" font-gruppo font-bold bg-cover text-black"
         style={{ backgroundImage: "url('src/assets/Pictures/background.svg')" }}
       >
         <div className="grid grid-cols-2 px-4">
           <h1 className="text-4xl  underline">About me:</h1>
-          <a
-            // href="#callAction"
-            className="  text-xl flex justify-end hover:text-blue-800"
-          >
-            See my projects
-          </a>
+
+          <button className="btn w-40 md:w-60 justify-self-end ml-20 bg-[#e8531a] hover:bg-[#c63600] text-black text-md md:text-xl border-0">
+            <img
+              src="/src/assets/Pictures/folder-code.svg"
+              alt="folder code icon"
+              className="size-[1.2em]"
+            />
+            See projects
+          </button>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 px-4 gap-5 text-center items-center text-2xl md:text-4xl md:">
+        <div className="grid grid-cols-2  md:grid-cols-3 px-4 gap-5 text-center items-center text-2xl md:text-4xl md:">
           <img
-            className="px-8 w-auto rounded-[59%_41%_54%_46%/72%_20%_80%_28%]"
+            className="px-8 w-full md:w-sm rounded-[59%_41%_54%_46%/72%_20%_80%_28%]"
             src="src/assets/Pictures/Avatar.png"
             alt="Melissa's photograph"
           />
