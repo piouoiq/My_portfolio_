@@ -8,7 +8,7 @@ export default function projectPage() {
       <Header />
       <main
         className=" font-gruppo font-bold bg-cover text-black"
-        style={{ backgroundImage: "url('src/assets/Pictures/background.svg')" }}
+        style={{ backgroundImage: "url('/Pictures/background.svg')" }}
       >
         <ProjectsSection />
       </main>
