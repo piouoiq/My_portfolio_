@@ -6,7 +6,7 @@ interface ProjectCardProps {
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <div className="card bg-[#e8531a] shadow-xl hover:shadow-2xl transition-shadow">
+    <div className=" card bg-primary shadow-xl hover:shadow-2xl transition-shadow">
       <figure className="h-48 overflow-hidden">
         <img
           src={project.image}
@@ -18,14 +18,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         <h3 className="card-title">
           {project.title}
           {project.featured && (
-            <span className="badge badge-secondary">Featured</span>
+            <span className="badge badge-outline bg-secondary">Featured</span>
           )}
         </h3>
         <p className="text-sm">{project.description}</p>
 
         <div className="flex flex-wrap gap-2 my-2">
           {project.technologies.map((tech) => (
-            <span key={tech} className="badge badge-outline badge-sm">
+            <span key={tech} className="badge badge-outline bg-accent badge-sm">
               {tech}
             </span>
           ))}
@@ -39,7 +39,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               href={project.demoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary btn-sm"
+              className="btn btn-outline bg-secondary hover:bg-base-200 btn-sm"
             >
               Demo
             </a>
@@ -49,7 +49,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-sm"
+              className="btn btn-outline bg-secondary btn-sm hover:bg-base-200"
             >
               GitHub
             </a>
