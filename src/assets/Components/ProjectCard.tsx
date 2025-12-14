@@ -17,8 +17,15 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       <div className="card-body">
         <h3 className="card-title">
           {project.title}
-          {project.featured && (
-            <span className="badge badge-outline bg-secondary">Featured</span>
+          {project.stared && (
+            <span className="badge badge-outline bg-secondary">
+              Star
+              <img
+                src="/src/assets/Pictures/sparkles.svg"
+                alt="sparle icon"
+                className="size-[1.2em]"
+              />
+            </span>
           )}
         </h3>
         <p className="text-sm">{project.description}</p>

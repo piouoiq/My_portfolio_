@@ -7,5 +7,5 @@ export interface Project {
   githubUrl?: string;
   technologies: string[];
   date: string;
-  featured?: boolean;
+  stared?: boolean;
 }

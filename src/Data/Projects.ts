@@ -11,7 +11,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/piouoiq/transcriMorse",
     technologies: ["HTML", "CSS", "JavaScript", "DOM"],
     date: "November 2025",
-    featured: true,
+    stared: true,
   },
   {
     id: "quiz",
