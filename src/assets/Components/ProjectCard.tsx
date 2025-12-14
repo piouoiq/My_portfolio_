@@ -38,7 +38,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           ))}
         </div>
 
-        <p className="text-xs text-base-content/60">{project.date}</p>
+        <p className="text-xs text-base-content">{project.date}</p>
 
         <div className="card-actions justify-end mt-4">
           {project.demoUrl && (
