@@ -26,7 +26,7 @@ export default function HomePage() {
             className="btn w-40 md:w-60 justify-self-end ml-20 bg-primary hover:bg-base-200 md:text-xl border-0"
           >
             <img
-              src="/src/assets/Pictures/folder-code.svg"
+              src="/Pictures/folder-code.svg"
               alt="folder code icon"
               className="size-[1.2em]"
             />
@@ -36,7 +36,7 @@ export default function HomePage() {
         <div className="grid grid-cols-2  md:grid-cols-3 px-4 gap-5 text-center items-center text-2xl md:text-4xl md:">
           <img
             className="px-8 w-full md:w-sm rounded-[59%_41%_54%_46%/72%_20%_80%_28%]"
-            src="src/assets/Pictures/Avatar.png"
+            src="/Pictures/Avatar.png"
             alt="Melissa's photograph"
           />
           <p>

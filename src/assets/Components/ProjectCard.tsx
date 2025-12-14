@@ -21,7 +21,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             <span className="badge badge-outline bg-secondary">
               Star
               <img
-                src="/src/assets/Pictures/sparkles.svg"
+                src="/Pictures/sparkles.svg"
                 alt="sparle icon"
                 className="size-[1.2em]"
               />

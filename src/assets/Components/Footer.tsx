@@ -8,14 +8,14 @@ export default function Footer() {
       >
         <img
           className="w-5 inline mr-2"
-          src="src/assets/Pictures/linkedin.svg"
+          src="/Pictures/linkedin.svg"
           alt="LinkedIn logo"
         />
       </a>
       <a href="https://github.com/piouoiq" target="_blank">
         <img
           className="w-5 inline "
-          src="src/assets/Pictures/github.svg"
+          src="/Pictures/github.svg"
           alt="github logo"
         />
       </a>
@@ -23,7 +23,7 @@ export default function Footer() {
 
       <p>
         <img
-          src="src/assets/Pictures/copyright-svgrepo-com.svg"
+          src="/Pictures/copyright-svgrepo-com.svg"
           alt="Copyright Symbol"
           className="inline w-3.5 h-4 mr-1"
         />{" "}
