@@ -15,12 +15,15 @@ export default function HomePage() {
         className=" font-gruppo font-bold bg-cover text-black"
         style={{ backgroundImage: "url('src/assets/Pictures/background.svg')" }}
       >
-        <div className="grid grid-cols-2 px-4">
+        <div
+          className="grid grid-cols-2 px-4 py-4
+        "
+        >
           <h1 className="text-4xl  underline">About me:</h1>
 
           <button
             onClick={navigate}
-            className="btn w-40 md:w-60 justify-self-end ml-20 bg-[#e8531a] hover:bg-[#c63600] text-black text-md md:text-xl border-0"
+            className="btn w-40 md:w-60 justify-self-end ml-20 bg-primary hover:bg-base-200 md:text-xl border-0"
           >
             <img
               src="/src/assets/Pictures/folder-code.svg"

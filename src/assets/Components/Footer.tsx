@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className=" text-black font-gruppo font-bold bg-[#ee8f15] p-4 text-center  position-sticky bottom-0">
-      <h4>Contact me:</h4>
+    <footer className=" text-black text-xl font-gruppo font-bold bg-[#ee8f15] p-4 text-center  position-sticky bottom-0">
+      <h4 className="underline">Contact me:</h4>
       <a
         href="https://www.linkedin.com/in/melissa-largilliere/"
         target="_blank"
@@ -25,7 +25,7 @@ export default function Footer() {
         <img
           src="src/assets/Pictures/copyright-svgrepo-com.svg"
           alt="Copyright Symbol"
-          className="inline w-2.5 h-4 mr-1"
+          className="inline w-3.5 h-4 mr-1"
         />{" "}
         2025 Melissa Largilliere. All rights reserved.
       </p>
