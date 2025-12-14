@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Dataviz",
     description:
       "A data visualization website displaying various charts using Recharts library in a React  application.",
-    image: "/Pictures/screenshots/dataviz.png",
+    image: "/Pictures/screenshots/Dataviz.png",
     demoUrl: "https://dataviz-omega.vercel.app/",
     githubUrl: "https://github.com/piouoiq/dataviz",
     technologies: [
