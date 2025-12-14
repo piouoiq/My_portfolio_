@@ -13,7 +13,7 @@ export default function HomePage() {
       <Header />
       <main
         className=" font-gruppo font-bold bg-cover text-black"
-        style={{ backgroundImage: "url('src/assets/Pictures/background.svg')" }}
+        style={{ backgroundImage: "url('public/Pictures/background.svg')" }}
       >
         <div
           className="grid grid-cols-2 px-4 py-4
