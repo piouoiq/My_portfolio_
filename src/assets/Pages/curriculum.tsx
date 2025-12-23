@@ -61,7 +61,7 @@ export default function Curriculum() {
                 <div className="text-lg font-black">
                   Self-teaching via OpenClassroom
                 </div>
-                <p>description</p>
+                <p>Description to come</p>
               </div>
               <hr />
             </li>
@@ -86,7 +86,7 @@ export default function Curriculum() {
                 <div className="text-lg font-black">
                   University studies on Korean Language
                 </div>
-                <p>description</p>
+                <p>Description to come</p>
               </div>
               <hr />
             </li>
@@ -111,7 +111,7 @@ export default function Curriculum() {
                 <div className="text-lg font-black">
                   Korean languages studies in an organisation.{" "}
                 </div>
-                <p>description</p>
+                <p>Description to come</p>
               </div>
               <hr />
             </li>
@@ -136,7 +136,7 @@ export default function Curriculum() {
                 <div className="text-lg font-black">
                   University studies in languages (Inglish and Italian) .
                 </div>
-                <p>description</p>
+                <p>Description to come</p>
               </div>
             </li>
           </ul>

@@ -1,13 +1,8 @@
 import Header from "../Components/Header";
 
 import Footer from "../Components/Footer";
-import { useNavigate } from "react-router";
 
 export default function HomePage() {
-  const nav = useNavigate();
-  const navigate = () => {
-    nav("/ProjectPage");
-  };
   return (
     <>
       <Header />
@@ -20,18 +15,6 @@ export default function HomePage() {
         "
         >
           <h1 className="text-4xl  underline">About me:</h1>
-
-          <button
-            onClick={navigate}
-            className="btn w-40 md:w-60 justify-self-end ml-20 bg-primary hover:bg-base-200 md:text-xl border-0"
-          >
-            <img
-              src="/Pictures/folder-code.svg"
-              alt="folder code icon"
-              className="size-[1.2em]"
-            />
-            See projects
-          </button>
         </div>
         <div className="grid grid-cols-2  md:grid-cols-3 px-4 gap-5 text-center items-center text-2xl md:text-4xl md:">
           <img
