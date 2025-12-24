@@ -43,19 +43,7 @@ export default function Header() {
                 Home
               </a>
             </li>
-            <li>
-              <a
-                onClick={navigatecv}
-                className=" hover:bg-black hover:text-white text-md md:text-xl border-0"
-              >
-                <img
-                  src="/Pictures/file-user.svg"
-                  alt="resume file icon"
-                  className="size-[1.2em] "
-                />
-                Resume
-              </a>
-            </li>
+
             <li>
               <a
                 onClick={navigateProject}
@@ -67,6 +55,19 @@ export default function Header() {
                   className="size-[1.2em] "
                 />
                 See projects
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={navigatecv}
+                className=" hover:bg-black hover:text-white text-md md:text-xl border-0"
+              >
+                <img
+                  src="/Pictures/file-user.svg"
+                  alt="resume file icon"
+                  className="size-[1.2em] "
+                />
+                Resume
               </a>
             </li>
           </ul>
