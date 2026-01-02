@@ -34,14 +34,14 @@ export default function Curriculum() {
                 </div>
                 <p>
                   Learning all the basics of being a developper, from
-                  frameworks, librairies, languages to proper code structuration
-                  and ways of working.
+                  frameworks, librairies, languages <br /> to proper code
+                  structuration and ways of working.
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#ee8f15]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#ee8f15]" />
               <div className="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,15 +58,18 @@ export default function Curriculum() {
               </div>
               <div className="timeline-end md:mb-10">
                 <time className="font-mono italic">2024 -2025</time>
-                <div className="text-lg font-black">
+                <div className="text-lg font-black underline">
                   Self-teaching via OpenClassroom
                 </div>
-                <p>Description to come</p>
+                <p>
+                  I self tought HTML5, CSS3 and Javascript using the free
+                  courses available on OpenClassroom.
+                </p>
               </div>
-              <hr />
+              <hr className="bg-[#ee8f15]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#ee8f15]" />
               <div className="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,15 +86,20 @@ export default function Curriculum() {
               </div>
               <div className="timeline-start mb-10 md:text-end">
                 <time className="font-mono italic">2020 - 2022</time>
-                <div className="text-lg font-black">
+                <div className="text-lg font-black underline">
                   University studies on Korean Language
                 </div>
-                <p>Description to come</p>
+                <p>
+                  Courses on the language, art, culture and history of Korea.{" "}
+                  <br /> I was able to learn all about the richness of this
+                  country via our native teachers <br /> and students exchange
+                  with a university in Seoul.
+                </p>
               </div>
-              <hr />
+              <hr className="bg-[#ee8f15]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#ee8f15]" />
               <div className="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -108,15 +116,18 @@ export default function Curriculum() {
               </div>
               <div className="timeline-end md:mb-10">
                 <time className="font-mono italic">2019 - 2020</time>
-                <div className="text-lg font-black">
+                <div className="text-lg font-black underline">
                   Korean languages studies in an organisation.{" "}
                 </div>
-                <p>Description to come</p>
+                <p>
+                  Learned the basics of Korean language via a local
+                  organisation.
+                </p>
               </div>
-              <hr />
+              <hr className="bg-[#ee8f15]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#ee8f15]" />
               <div className="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -133,10 +144,13 @@ export default function Curriculum() {
               </div>
               <div className="timeline-start mb-10 md:text-end">
                 <time className="font-mono italic">2013 - 2015 </time>;
-                <div className="text-lg font-black">
-                  University studies in languages (Inglish and Italian) .
+                <div className="text-lg font-black underline">
+                  University studies in languages (English and Italian) .
                 </div>
-                <p>Description to come</p>
+                <p>
+                  Language, Litterature and foreign civilisations course with
+                  English and Italian as first languages studied.
+                </p>
               </div>
             </li>
           </ul>
