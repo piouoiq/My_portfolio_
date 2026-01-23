@@ -42,9 +42,8 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/piouoiq/transcriMorse",
     technologies: ["HTML", "CSS", "JavaScript", "DOM"],
     date: "November 2025",
-    stared: true,
+    stared: false,
   },
-
   {
     id: "paws-agency",
     title: "Paw's Model Agency",
@@ -54,18 +53,6 @@ export const projects: Project[] = [
     githubUrl:
       "https://github.com/piouoiq/Ada_tech_School/tree/main/%5BGHN%5D%20%5BC20%5D%20HTML-CSS-avanc%C3%A9/Exercice-1",
     technologies: ["HTML", "CSS"],
-    date: "October 2025",
-    stared: false,
-  },
-  {
-    id: "bonjour-javascript",
-    title: "Bonjour JavaScript",
-    description:
-      "A JavaScript greeting picker that displays 'Bonjour' or 'Bonsoir' depending on the time indicated by the user.",
-    image: "/Pictures/screenshots/bjrJS.jpg",
-    githubUrl:
-      "https://github.com/piouoiq/Ada_tech_School/tree/main/Exercices_individuels/01_bonjour_javascript.md",
-    technologies: ["HTML", "JavaScript"],
     date: "October 2025",
     stared: false,
   },
@@ -80,5 +67,17 @@ export const projects: Project[] = [
     technologies: ["HTML", "JavaScript"],
     date: "October 2025",
     stared: false,
+  },
+  {
+    id: "Adaopte",
+    title: "Adaopte",
+    description:
+      "A React Vite website build to simulate an animal shelter's website. It contains a homepage, an adoption page with serch filters and a volunteering page with a form. It was build using Typescript and Tailwind CSS.",
+    image: "/Pictures/screenshots/Adaopte.png",
+    demoUrl: "https://adaopte-wheat.vercel.app/",
+    githubUrl: "https://github.com/piouoiq/Adaopte",
+    technologies: ["React", "Vite", "Typescript", "Tailwind"],
+    date: "January 2026",
+    stared: true,
   },
 ];
