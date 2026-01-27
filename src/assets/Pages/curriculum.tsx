@@ -2,6 +2,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { StudyTimeline } from "../Components/StudyTimelineSection";
 import { WorkTimeline } from "../Components/workTimelineSection";
+import { SkillSection } from "../Components/SkillSection";
 
 export default function Curriculum() {
   return (
@@ -40,7 +41,7 @@ export default function Curriculum() {
             defaultChecked
           />
           <div className="border-black border-3 tab-content  p-6">
-            Tab content 3
+            <SkillSection />
           </div>
         </div>
       </main>
