@@ -8,7 +8,7 @@ export const SkillCard = ({ img, alt }: SkillPropsTypes) => {
     <>
       <div className="hover-3d">
         {/* content */}
-        <figure className="w-20 rounded-2xl">
+        <figure className="w-20 ">
           <img src={img} alt={alt} />
         </figure>
         {/* 8 empty divs needed for the 3D effect */}
