@@ -38,22 +38,22 @@ export const Skills: SkillTypes[] = [
     infoBubble: "VS Code",
   },
   {
-    img: "/Pictures/logos technos/React.svg",
+    img: "/Pictures/logos_technos/React.svg",
     alt: "React logo",
     infoBubble: "React",
   },
   {
-    img: "/Pictures/logos technos/TypeScript.svg",
+    img: "/Pictures/logos_technos/TypeScript.svg",
     alt: "TypeScript logo",
     infoBubble: "TypeScript",
   },
   {
-    img: "/Pictures/logos technos/Tailwind CSS.svg",
+    img: "/Pictures/logos_technos/Tailwind CSS.svg",
     alt: "Tailwind CSS logo",
     infoBubble: "Tailwind",
   },
   {
-    img: "/Pictures/logos technos/MySQL.svg",
+    img: "/Pictures/logos_technos/MySQL.svg",
     alt: "MySQL logo",
     infoBubble: "MySQL",
   },
