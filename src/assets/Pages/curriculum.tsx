@@ -48,7 +48,6 @@ export default function Curriculum() {
             name="my_tabs_6"
             className="tab text-black hover:border-black hover:border-3"
             aria-label="Other infos"
-            defaultChecked
           />
           <div className="border-black border-3 tab-content p-6">
             <p>To be added : languages, hobbies, pitch</p>
