@@ -1,12 +1,13 @@
 interface SkillPropsTypes {
   img: string;
   alt: string;
+  infoBubble: string;
 }
 
-export const SkillCard = ({ img, alt }: SkillPropsTypes) => {
+export const SkillCard = ({ img, alt, infoBubble }: SkillPropsTypes) => {
   return (
     <>
-      <div className="hover-3d">
+      <div className="hover-3d tooltip" data-tip={infoBubble}>
         {/* content */}
         <figure className="w-20 ">
           <img src={img} alt={alt} />

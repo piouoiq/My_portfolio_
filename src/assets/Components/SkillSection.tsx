@@ -8,7 +8,11 @@ export const SkillSection = () => {
         <ul className="grid grid-cols-4 ">
           {Skills.map((key) => (
             <li key={key.img}>
-              <SkillCard img={key.img} alt={key.alt} />
+              <SkillCard
+                img={key.img}
+                alt={key.alt}
+                infoBubble={key.infoBubble}
+              />
             </li>
           ))}
         </ul>
