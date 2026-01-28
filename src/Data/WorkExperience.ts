@@ -1,4 +1,4 @@
-import type { workExperience } from "../Types/WorkExperience";
+import type { workExperience } from "../Types/WorkExperienceTypes";
 
 export const WorkExperience: workExperience[] = [
   {

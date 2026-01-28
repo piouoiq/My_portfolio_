@@ -1,5 +1,5 @@
-import { WorkExperience } from "../../Data/WorkExperience";
-import { TimelineCard } from "../Components/TimelineCard";
+import { WorkExperience } from "../../../Data/WorkExperience";
+import { TimelineCard } from "../Cards/TimelineCard";
 
 export const WorkTimeline = () => {
   return (

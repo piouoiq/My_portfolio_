@@ -1,8 +1,8 @@
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import { StudyTimeline } from "../Components/StudyTimelineSection";
-import { WorkTimeline } from "../Components/workTimelineSection";
-import { SkillSection } from "../Components/SkillSection";
+import { StudyTimeline } from "../Components/Sections/StudyTimelineSection";
+import { WorkTimeline } from "../Components/Sections/workTimelineSection";
+import { SkillSection } from "../Components/Sections/SkillSection";
 
 export default function Curriculum() {
   return (

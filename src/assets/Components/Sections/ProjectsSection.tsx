@@ -1,5 +1,5 @@
-import { projects } from "../../Data/Projects";
-import { ProjectCard } from "./ProjectCard";
+import { projects } from "../../../Data/Projects";
+import { ProjectCard } from "../Cards/ProjectCard";
 
 export default function ProjectsSection() {
   const sortedProjects = [...projects].sort((a, b) => {

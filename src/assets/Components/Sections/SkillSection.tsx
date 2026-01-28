@@ -1,7 +1,7 @@
-import { Skills } from "../../Data/Skills";
-import { SoftSkills } from "../../Data/softSkills";
-import { SoftSkillCard } from "./SoftSkillsCard";
-import { SkillCard } from "./technology card";
+import { Skills } from "../../../Data/Skills";
+import { SoftSkills } from "../../../Data/softSkills";
+import { SoftSkillCard } from "../Cards/SoftSkillsCard";
+import { SkillCard } from "../Cards/technology card";
 
 export const SkillSection = () => {
   return (

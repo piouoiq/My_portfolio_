@@ -1,5 +1,5 @@
-import { TimelineCard } from "../Components/TimelineCard";
-import { studies } from "../../Data/Studies";
+import { TimelineCard } from "../Cards/TimelineCard";
+import { studies } from "../../../Data/Studies";
 
 export const StudyTimeline = () => {
   return (
