@@ -57,3 +57,7 @@
   --depth: 1;
   --noise: 0;
 }
+
+main {
+  min-height: 100vh;
+}
