@@ -1,4 +1,4 @@
-import type { Studies } from "../Types/Studies.ts";
+import type { Studies } from "../Types/StudiesTypes.ts";
 
 export const studies: Studies[] = [
   {

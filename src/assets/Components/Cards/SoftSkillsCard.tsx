@@ -1,4 +1,4 @@
-import type { SoftSkillsTypes } from "../../Types/SoftSkillsTypes";
+import type { SoftSkillsTypes } from "../../../Types/SoftSkillsTypes";
 
 export const SoftSkillCard = ({ name }: SoftSkillsTypes) => {
   return (

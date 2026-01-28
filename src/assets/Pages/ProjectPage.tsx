@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import ProjectsSection from "../Components/ProjectsSection";
+import ProjectsSection from "../Components/Sections/ProjectsSection";
 import Footer from "../Components/Footer";
 
 export default function projectPage() {
