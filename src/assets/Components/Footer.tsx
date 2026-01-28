@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className=" text-black text-xl font-gruppo font-bold bg-[#ee8f15] p-4 text-center  position-sticky bottom-0">
+    <footer className=" text-black text-xl font-gruppo font-bold bg-[#ee8f15] p-4 text-center static bottom-0">
       <h4 className="underline">Contact me:</h4>
       <div>
         <a

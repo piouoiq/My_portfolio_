@@ -15,7 +15,7 @@ export default function Header() {
     navProject("/ProjectPage");
   };
   return (
-    <header className=" text-black font-gruppo font-bold  bg-[#ee8f15] p-4 text-center position-sticky top-0">
+    <header className=" text-black font-gruppo font-bold  bg-[#ee8f15] p-4 text-center static top-0">
       <div className=" flex ">
         <div className="mx-auto text-center">
           <h1 className=" text-4xl underline">Melissa Largilliere</h1>
