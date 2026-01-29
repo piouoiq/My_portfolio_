@@ -24,7 +24,7 @@ export const projects: Project[] = [
     id: "quiz",
     title: "Cartoons Quiz",
     description:
-      "Team project - A quiz with custom functionalities about cartoons.",
+      "Team project - A quiz interface about cartoons.It displays a question, a set of answers, a timer, a progress bar and score interface at the end. ",
     image: "/Pictures/screenshots/quiz-homepage.png",
     demoUrl: "https://piouoiq.github.io/projet-quiz-team-mejeda/",
     githubUrl: "https://github.com/piouoiq/projet-quiz-team-mejeda",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     id: "Adaopte",
     title: "Adaopte",
     description:
-      "A React Vite website build to simulate an animal shelter's website. It contains a homepage, an adoption page with serch filters and a volunteering page with a form. It was build using Typescript and Tailwind CSS.",
+      "A React Vite website build to simulate an animal shelter's website. It contains a homepage, an adoption page with search filters and a volunteering page with a form. It was built using Typescript and Tailwind CSS.",
     image: "/Pictures/screenshots/Adaopte.png",
     demoUrl: "https://adaopte-wheat.vercel.app/",
     githubUrl: "https://github.com/piouoiq/Adaopte",
