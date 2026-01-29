@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import { StudyTimeline } from "../Components/Sections/StudyTimelineSection";
 import { WorkTimeline } from "../Components/Sections/workTimelineSection";
 import { SkillSection } from "../Components/Sections/SkillSection";
+import { OtherInfosSection } from "../Components/Sections/OtherInfosSection";
 
 export default function Curriculum() {
   return (
@@ -50,7 +51,7 @@ export default function Curriculum() {
             aria-label="Other infos"
           />
           <div className="border-black border-3 tab-content p-6">
-            <p>To be added : languages, hobbies, pitch</p>
+            <OtherInfosSection />
           </div>
         </div>
       </main>
