@@ -7,7 +7,7 @@ export default function projectPage() {
     <>
       <Header />
       <main
-        className=" font-gruppo font-bold bg-cover text-black"
+        className="font-bold bg-cover text-black"
         style={{ backgroundImage: "url('/Pictures/background.svg')" }}
       >
         <section id="projects" className="grid grid-cols-2 px-4 py-4">
