@@ -13,7 +13,7 @@ export default function Curriculum() {
         className="bg-cover"
         style={{ backgroundImage: "url('/Pictures/background.svg')" }}
       >
-        <div className=" bg-orange-200 tabs tabs-box font-gruppo font-bold text-black">
+        <div className=" bg-secondary tabs tabs-box  font-bold text-black">
           <input
             type="radio"
             name="my_tabs_6"
