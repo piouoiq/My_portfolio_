@@ -18,11 +18,11 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         <h3 className="card-title">
           {project.title}
           {project.stared && (
-            <span className="badge badge-outline bg-secondary">
+            <span className="badge badge-outline bg-accent">
               Star
               <img
                 src="/Pictures/sparkles.svg"
-                alt="sparle icon"
+                alt="sparkle icon"
                 className="size-[1.2em]"
               />
             </span>
@@ -32,7 +32,10 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
 
         <div className="flex flex-wrap gap-2 my-2">
           {project.technologies.map((tech) => (
-            <span key={tech} className="badge badge-outline bg-accent badge-sm">
+            <span
+              key={tech}
+              className="badge badge-outline bg-accent-content badge-sm"
+            >
               {tech}
             </span>
           ))}
@@ -46,7 +49,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               href={project.demoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline bg-secondary hover:bg-base-200 btn-sm"
+              className="btn btn-outline bg-accent hover:bg-base-200 btn-sm"
             >
               Demo
             </a>
@@ -56,7 +59,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline bg-secondary btn-sm hover:bg-base-200"
+              className="btn btn-outline bg-accent btn-sm hover:bg-base-200"
             >
               GitHub
             </a>
