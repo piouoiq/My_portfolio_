@@ -8,56 +8,36 @@
   color-scheme: light; /* color of browser-provided UI */
 
   /* Couleurs de base */
-  --color-base-100: oklch(99% 0.005 25);
-  --color-base-200: oklch(96% 0.01 25);
-  --color-base-300: oklch(92% 0.015 25);
-  --color-base-content: oklch(22% 0.02 25);
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(96% 0.01 25); /* Light grey*/
+  --color-base-300: oklch(92% 0.015 25); /* medium grey */
+  --color-base-content: oklch(22% 0.02 25); /* black */
 
-  /* Primary - Pêche chaleureux */
-  --color-primary: oklch(72% 0.19 50);
-  --color-primary-content: oklch(18% 0.03 50);
-  /* Secondary - Bleu océan */
-  --color-secondary: oklch(0.6092 0.0858 210);
-  --color-secondary-content: oklch(98% 0.01 250);
+  --color-primary: oklch(73.41% 0.1619 63.74); /*Carrot Orange*/
+  --color-primary-content: oklch(18% 0.03 50); /* noir */
 
-  /* Accent -  corail */
-  --color-accent: oklch(68% 0.21 25);
-  --color-accent-content: oklch(18% 0.03 25);
+  --color-secondary: oklch(90.1% 0.076 70.697); /* orangish beige*/
+  --color-secondary-content: oklch(98% 0.01 250); /* very light grey */
 
-  /* Neutral */
-  --color-neutral: oklch(44% 0.02 25);
-  --color-neutral-content: oklch(98% 0.01 25);
+  --color-accent: oklch(0.6092 0.0858 210); /* vivid blue */
+  --color-accent-content: oklch(68% 0.21 25); /* redish pink */
 
   /* États */
-  --color-info: oklch(58% 0.16 210);
-  --color-info-content: oklch(98% 0.01 210);
+  --color-info: oklch(58% 0.16 210); /* light blue */
+  --color-info-content: oklch(98% 0.01 210); /* very light blue */
 
-  --color-success: oklch(58% 0.19 145);
-  --color-success-content: oklch(98% 0.01 145);
+  --color-success: oklch(58% 0.19 145); /* vivid green */
+  --color-success-content: oklch(98% 0.01 145); /* green tinted white */
 
-  --color-warning: oklch(72% 0.16 50);
-  --color-warning-content: oklch(18% 0.03 50);
+  --color-warning: oklch(72% 0.16 50); /* dimmed orange */
+  --color-warning-content: oklch(18% 0.03 50); /* black */
 
-  --color-error: oklch(60% 0.23 15);
-  --color-error-content: oklch(98% 0.01 15);
-
-  /* border radius */
-  --radius-selector: 1rem;
-  --radius-field: 0.25rem;
-  --radius-box: 0.5rem;
-
-  /* base sizes */
-  --size-selector: 0.25rem;
-  --size-field: 0.25rem;
-
-  /* border size */
-  --border: 1px;
-
-  /* effects */
-  --depth: 1;
-  --noise: 0;
+  --color-error: oklch(60% 0.23 15); /* pinkish red */
+  --color-error-content: oklch(98% 0.01 15); /* pink tinted white */
 }
-
 main {
   min-height: 100vh;
+}
+body {
+  font-family: gruppo, sans-serif;
 }

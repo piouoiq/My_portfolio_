@@ -9,7 +9,7 @@ export default function NotFound() {
         className="bg-cover"
         style={{ backgroundImage: "url('/Pictures/background.svg')" }}
       >
-        <div className="text-center pt-6 text-4xl font-gruppo font-bold text-black mb-10">
+        <div className="text-center pt-6 text-4xl font-bold text-black mb-10">
           <img
             className="mx-auto w-96 rounded-full border-8 border-[#ee8f15]"
             src="/Pictures/shocked_cat_GIF.gif"

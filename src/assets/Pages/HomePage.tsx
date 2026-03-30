@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <Header />
       <main
-        className=" font-gruppo font-bold bg-cover text-black"
+        className="font-bold bg-cover text-black"
         style={{ backgroundImage: "url('/Pictures/background.svg')" }}
       >
         <div
