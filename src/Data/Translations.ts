@@ -23,3 +23,45 @@ export const headerTranslations = {
     title: "Student developer at Ada Tech School",
   },
 };
+
+export const footerTranslations = {
+  fr: {
+    contact: "Contactez-moi :",
+    email: "Email : melargilliere@gmail.com",
+    altLinkedin: "Logo LinkedIn",
+    altGithub: "Logo GitHub",
+    altCopyright: "Symbole de copyright",
+    copyright: "2025 Melissa Largilliere. Tous droits réservés.",
+  },
+  en: {
+    contact: "Contact me :",
+    email: "Email : melargilliere@gmail.com",
+    altLinkedin: "LinkedIn logo",
+    altGithub: "GitHub logo",
+    altCopyright: "Copyright symbol",
+    copyright: "2025 Melissa Largilliere. All rights reserved.",
+  },
+};
+
+export const MenuButtonTranslations = {
+  fr: {
+    menu: "Menu",
+
+    home: "Accueil",
+    altHome: "Icône de maison",
+    seeProjects: "Voir les projets",
+    altSeeProjects: "Icône de dossier de code",
+
+    curriculum: "Curriculum",
+    altCurriculum: "Icône de fichier de CV",
+  },
+  en: {
+    menu: "Menu",
+    home: "Home",
+    altHome: "Home icon",
+    seeProjects: "See projects",
+    altSeeProjects: "Code folder icon",
+    curriculum: "Resume",
+    altCurriculum: "Resume file icon",
+  },
+};
