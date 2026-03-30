@@ -18,12 +18,12 @@ export function MenuButton() {
   return (
     <>
       <div className="dropdown dropdown-hover dropdown-end">
-        <div tabIndex={0} role="button" className="btn m-1 text-lg">
+        <div tabIndex={0} role="button" className="btn bg-primary m-1 text-lg ">
           Menu
         </div>
         <ul
           tabIndex={-1}
-          className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
+          className="dropdown-content menu bg-primary rounded-box z-1 w-52 p-2 shadow-sm"
         >
           <li>
             <a
