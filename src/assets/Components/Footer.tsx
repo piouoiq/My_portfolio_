@@ -1,6 +1,11 @@
 export default function Footer() {
   return (
-    <footer className=" text-black text-xl font-bold bg-primary p-4 text-center static bottom-0">
+    <footer
+      className=" text-black text-xl font-bold p-4 text-center static bottom-0"
+      style={{
+        backgroundImage: "url('public/Pictures/pexels-steve-28399146.jpg')",
+      }}
+    >
       <h4 className="underline">Contact me:</h4>
       <div>
         <a

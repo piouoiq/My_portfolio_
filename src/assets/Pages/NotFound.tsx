@@ -3,12 +3,15 @@ import Header from "../Components/Header";
 
 export default function NotFound() {
   return (
-    <>
+    <body
+      style={{
+        backgroundImage: "url('public/Pictures/pexels-steve-28399146.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <Header />
-      <main
-        className="bg-cover"
-        style={{ backgroundImage: "url('/Pictures/background.svg')" }}
-      >
+      <main>
         <div className="text-center pt-6 text-4xl font-bold text-black mb-10">
           <img
             className="mx-auto w-96 rounded-full border-8 border-[#ee8f15]"
@@ -22,6 +25,6 @@ export default function NotFound() {
         </div>
       </main>
       <Footer />
-    </>
+    </body>
   );
 }

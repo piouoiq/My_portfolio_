@@ -4,12 +4,15 @@ import Footer from "../Components/Footer";
 
 export default function HomePage() {
   return (
-    <>
+    <body
+      style={{
+        backgroundImage: "url('public/Pictures/pexels-steve-28399146.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <Header />
-      <main
-        className="font-bold bg-cover text-black"
-        style={{ backgroundImage: "url('/Pictures/background.svg')" }}
-      >
+      <main className="font-bold bg-cover text-black">
         <div
           className="grid grid-cols-2 px-4 py-4
         "
@@ -34,6 +37,6 @@ export default function HomePage() {
         </div>
       </main>
       <Footer />
-    </>
+    </body>
   );
 }

@@ -7,13 +7,16 @@ import { OtherInfosSection } from "../Components/Sections/OtherInfosSection";
 
 export default function Curriculum() {
   return (
-    <>
+    <body
+      style={{
+        backgroundImage: "url('public/Pictures/pexels-steve-28399146.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <Header />
-      <main
-        className="bg-cover"
-        style={{ backgroundImage: "url('/Pictures/background.svg')" }}
-      >
-        <div className=" bg-secondary tabs tabs-box  font-bold text-black">
+      <main>
+        <div className=" bg-primary tabs tabs-box  font-bold text-black w-full md:w-6/7 mx-auto m-10">
           <input
             type="radio"
             name="my_tabs_6"
@@ -56,6 +59,6 @@ export default function Curriculum() {
         </div>
       </main>
       <Footer />
-    </>
+    </body>
   );
 }
