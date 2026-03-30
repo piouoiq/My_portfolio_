@@ -6,13 +6,13 @@ export default function HomePage() {
   return (
     <body
       style={{
-        backgroundImage: "url('/pexels-steve-28399146.jpg')",
+        backgroundImage: "url('/Pictures/pexels-steve-28399146.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
       <Header />
-      <main className="font-bold bg-cover text-black">
+      <main className="font-bold text-black">
         <div
           className="grid grid-cols-2 px-4 py-4
         "

@@ -3,7 +3,7 @@ export default function Footer() {
     <footer
       className=" text-black text-xl font-bold p-4 text-center static bottom-0"
       style={{
-        backgroundImage: "url('/pexels-steve-28399146.jpg')",
+        backgroundImage: "url('/Pictures/pexels-steve-28399146.jpg')",
       }}
     >
       <h4 className="underline">Contact me:</h4>
