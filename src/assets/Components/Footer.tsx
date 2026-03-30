@@ -1,4 +1,10 @@
+import { footerTranslations } from "../../Data/Translations";
+import { useLang } from "./Sections/LangContext";
+
 export default function Footer() {
+  const { lang } = useLang();
+  const t = footerTranslations[lang.toLowerCase() as "fr" | "en"];
+
   return (
     <footer
       className=" text-black text-xl font-bold p-4 text-center static bottom-0"
@@ -6,7 +12,7 @@ export default function Footer() {
         backgroundImage: "url('/Pictures/pexels-steve-28399146.jpg')",
       }}
     >
-      <h4 className="underline">Contact me:</h4>
+      <h4 className="underline">{t.contact}</h4>
       <div>
         <a
           href="https://www.linkedin.com/in/melissa-largilliere/"
@@ -15,14 +21,14 @@ export default function Footer() {
           <img
             className="w-5 inline mr-2"
             src="/Pictures/linkedin.svg"
-            alt="LinkedIn logo"
+            alt={t.altLinkedin}
           />
         </a>
         <a href="https://github.com/piouoiq" target="_blank">
           <img
             className="w-5 inline "
             src="/Pictures/github.svg"
-            alt="github logo"
+            alt={t.altGithub}
           />
         </a>
       </div>
@@ -33,16 +39,16 @@ export default function Footer() {
             (window.location.href = "mailto:melargilliere@gmail.com")
           }
         >
-          Email: melargilliere@gmail.com
+          {t.email}
         </button>
 
         <p>
           <img
             src="/Pictures/copyright-svgrepo-com.svg"
-            alt="Copyright Symbol"
+            alt={t.altCopyright}
             className="inline w-3.5 h-4 mr-1"
           />
-          2025 Melissa Largilliere. All rights reserved.
+          {t.copyright}
         </p>
       </div>
     </footer>
