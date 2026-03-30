@@ -9,7 +9,7 @@ export default function Curriculum() {
   return (
     <body
       style={{
-        backgroundImage: "url('public/Pictures/pexels-steve-28399146.jpg')",
+        backgroundImage: "url('/Pictures/pexels-steve-28399146.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
