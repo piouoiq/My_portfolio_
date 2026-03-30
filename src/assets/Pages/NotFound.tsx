@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <body
       style={{
-        backgroundImage: "url('public/Pictures/pexels-steve-28399146.jpg')",
+        backgroundImage: "url('/pexels-steve-28399146.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
