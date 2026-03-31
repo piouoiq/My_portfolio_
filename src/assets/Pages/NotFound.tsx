@@ -1,9 +1,14 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import { useLang } from "../Components/Sections/LangContext";
+import { notFoundTranslations } from "../../Data/Translations";
 
 export default function NotFound() {
+  const { lang } = useLang();
+  const t = notFoundTranslations[lang.toLowerCase() as "fr" | "en"];
+
   return (
-    <body
+    <div
       style={{
         backgroundImage: "url('/Pictures/pexels-steve-28399146.jpg')",
         backgroundSize: "cover",
@@ -16,15 +21,15 @@ export default function NotFound() {
           <img
             className="mx-auto w-96 rounded-full border-8 border-[#ee8f15]"
             src="/Pictures/shocked_cat_GIF.gif"
-            alt="gif of a shocked cat with its mouth open"
+            alt={t.alt}
           />
           <div className="p-4 ">
-            <h1>Error 404 : Page Not Found</h1>
-            <span>Oops, seems like you got lost!</span>
+            <h1>{t.title}</h1>
+            <span>{t.subtitle}</span>
           </div>
         </div>
       </main>
       <Footer />
-    </body>
+    </div>
   );
 }

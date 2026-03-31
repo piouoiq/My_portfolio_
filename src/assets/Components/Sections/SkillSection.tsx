@@ -2,12 +2,17 @@ import { Skills } from "../../../Data/Skills";
 import { SoftSkills } from "../../../Data/softSkills";
 import { SoftSkillCard } from "../Cards/SoftSkillsCard";
 import { SkillCard } from "../Cards/technology card";
+import { useLang } from "../Sections/LangContext";
+import { sectionHeadersTranslations } from "../../../Data/Translations";
 
 export const SkillSection = () => {
+  const { lang } = useLang();
+  const t = sectionHeadersTranslations[lang.toLowerCase() as "fr" | "en"];
+
   return (
     <div className="flex ">
       <div className="basis-1/2">
-        <h2 className="underline text-2xl">Hard skills:</h2>
+        <h2 className="underline text-2xl">{t.hardSkills}</h2>
         <ul className="md:grid grid-cols-4 ">
           {Skills.map((key) => (
             <li key={key.img}>
@@ -21,7 +26,7 @@ export const SkillSection = () => {
         </ul>
       </div>
       <div className="basis-1/2">
-        <h2 className="underline text-2xl">Soft skills:</h2>
+        <h2 className="underline text-2xl">{t.softSkills}</h2>
         <ul className="md:grid grid-cols-2 ">
           {SoftSkills.map((key) => (
             <li key={key.name}>

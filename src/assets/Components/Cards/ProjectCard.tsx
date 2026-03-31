@@ -1,25 +1,37 @@
 import type { Project } from "../../../Types/ProjectTypes";
+import { useLang } from "../Sections/LangContext";
+import {
+  projectsTranslations,
+  starTranslations,
+} from "../../../Data/Translations";
 
 interface ProjectCardProps {
   project: Project;
 }
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
+  const { lang } = useLang();
+  const t =
+    projectsTranslations[project.titleKey as keyof typeof projectsTranslations][
+      lang.toLowerCase() as "fr" | "en"
+    ];
+  const starT = starTranslations[lang.toLowerCase() as "fr" | "en"];
+
   return (
     <div className=" card bg-primary shadow-xl hover:shadow-2xl transition-shadow">
       <figure className="h-48 overflow-hidden">
         <img
           src={project.image}
-          alt={project.title}
+          alt={t.title}
           className="w-full h-full object-cover"
         />
       </figure>
       <div className="card-body">
         <h3 className="card-title">
-          {project.title}
+          {t.title}
           {project.stared && (
             <span className="badge badge-outline bg-accent">
-              Star
+              {starT}
               <img
                 src="/Pictures/sparkles.svg"
                 alt="sparkle icon"
@@ -28,7 +40,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             </span>
           )}
         </h3>
-        <p className="text-sm">{project.description}</p>
+        <p className="text-sm">{t.description}</p>
 
         <div className="flex flex-wrap gap-2 my-2">
           {project.technologies.map((tech) => (
@@ -41,7 +53,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           ))}
         </div>
 
-        <p className="text-xs text-base-content">{project.date}</p>
+        <p className="text-xs text-base-content">{t.date}</p>
 
         <div className="card-actions justify-end mt-4">
           {project.demoUrl && (

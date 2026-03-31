@@ -2,30 +2,30 @@ import type { SoftSkillsTypes } from "../Types/SoftSkillsTypes";
 
 export const SoftSkills: SoftSkillsTypes[] = [
   {
-    name: "Eased communication",
+    name: "easedCommunication",
   },
   {
-    name: "Adaptability & Curiosity",
+    name: "adaptabilitCuriosity",
   },
   {
-    name: "Autonomy & Perseverance",
+    name: "autonomyPerseverance",
   },
   {
-    name: "Organization",
+    name: "organization",
   },
   {
-    name: "TeamWork",
+    name: "teamwork",
   },
   {
-    name: "Sens of service",
+    name: "senseOfService",
   },
   {
-    name: "Analytical Mind",
+    name: "analyticalMind",
   },
   {
-    name: "Responsive  design",
+    name: "responsiveDesign",
   },
   {
-    name: "Accessibility & good pratices",
+    name: "accessibilityGoodPractices",
   },
 ];
