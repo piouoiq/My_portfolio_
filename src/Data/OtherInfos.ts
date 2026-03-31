@@ -2,18 +2,18 @@ import type { SoftSkillsTypes } from "../Types/SoftSkillsTypes";
 
 export const OtherInfos: SoftSkillsTypes[] = [
   {
-    name: "Sports (Bodybuilding)",
+    name: "sportsBodybuilding",
   },
   {
-    name: "Volunteering - Nantes's Pride march",
+    name: "volunteeringPride",
   },
   {
-    name: "Conception and Devellopement of an militant website.",
+    name: "militantWebsite",
   },
   {
-    name: "Creative and manual hobbies ( Crochet, painting, sewing, etc)",
+    name: "creativeHobbies",
   },
   {
-    name: "Travels (Europe, Maroc, Canada)",
+    name: "travelsEuropeMarocCanada",
   },
 ];

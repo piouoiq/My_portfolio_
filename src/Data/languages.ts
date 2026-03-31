@@ -2,18 +2,18 @@ import type { SoftSkillsTypes } from "../Types/SoftSkillsTypes";
 
 export const Langages: SoftSkillsTypes[] = [
   {
-    name: "French: Native Tongue",
+    name: "frenchNative",
   },
   {
-    name: "English: C1 (CECRL guide)",
+    name: "englishC1",
   },
   {
-    name: "Korean: A2 (CECRL guide)",
+    name: "koreanA2",
   },
   {
-    name: "Italian: Self-teaching",
+    name: "italianSelfTeaching",
   },
   {
-    name: "German: Self-teaching",
+    name: "germanSelfTeaching",
   },
 ];

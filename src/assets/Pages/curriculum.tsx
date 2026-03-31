@@ -4,8 +4,13 @@ import { StudyTimeline } from "../Components/Sections/StudyTimelineSection";
 import { WorkTimeline } from "../Components/Sections/workTimelineSection";
 import { SkillSection } from "../Components/Sections/SkillSection";
 import { OtherInfosSection } from "../Components/Sections/OtherInfosSection";
+import { useLang } from "../Components/Sections/LangContext";
+import { curriculumSectionTabTranslations } from "../../Data/Translations";
 
 export default function Curriculum() {
+  const { lang } = useLang();
+  const t = curriculumSectionTabTranslations[lang.toLowerCase() as "fr" | "en"];
+
   return (
     <body
       style={{
@@ -21,7 +26,7 @@ export default function Curriculum() {
             type="radio"
             name="my_tabs_6"
             className="tab text-black hover:border-black hover:border-3"
-            aria-label="My studies"
+            aria-label={t.education}
           />
           <div className="tab-content  border-black border-3  p-6">
             <StudyTimeline />
@@ -31,7 +36,7 @@ export default function Curriculum() {
             type="radio"
             name="my_tabs_6"
             className="tab text-black hover:border-black hover:border-3"
-            aria-label="My work Experience"
+            aria-label={t.experience}
           />
           <div className="tab-content border-black border-3 p-6">
             <WorkTimeline />
@@ -41,7 +46,7 @@ export default function Curriculum() {
             type="radio"
             name="my_tabs_6"
             className="tab text-black hover:border-black hover:border-3"
-            aria-label="My skills"
+            aria-label={t.skills}
             defaultChecked
           />
           <div className="border-black border-3 tab-content p-6">
@@ -51,7 +56,7 @@ export default function Curriculum() {
             type="radio"
             name="my_tabs_6"
             className="tab text-black hover:border-black hover:border-3"
-            aria-label="Other infos"
+            aria-label={t.other}
           />
           <div className="border-black border-3 tab-content p-6">
             <OtherInfosSection />

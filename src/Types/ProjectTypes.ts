@@ -1,11 +1,11 @@
 export interface Project {
   id: string;
-  title: string;
-  description: string;
+  titleKey: string;
+  descriptionKey: string;
   image: string;
   demoUrl?: string;
   githubUrl?: string;
   technologies: string[];
-  date: string;
+  dateKey: string;
   stared?: boolean;
 }

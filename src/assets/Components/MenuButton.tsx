@@ -1,6 +1,11 @@
 import { useNavigate } from "react-router";
+import { MenuButtonTranslations } from "../../Data/Translations";
+import { useLang } from "./Sections/LangContext";
 
 export function MenuButton() {
+  const { lang } = useLang();
+  const t = MenuButtonTranslations[lang.toLowerCase() as "fr" | "en"];
+
   const nav = useNavigate();
   const navigate = () => {
     nav("/");
@@ -19,7 +24,7 @@ export function MenuButton() {
     <>
       <div className="dropdown dropdown-hover dropdown-end">
         <div tabIndex={0} role="button" className="btn bg-primary m-1 text-lg ">
-          Menu
+          {t.menu}
         </div>
         <ul
           tabIndex={-1}
@@ -32,10 +37,10 @@ export function MenuButton() {
             >
               <img
                 src="/Pictures/house.svg"
-                alt="home icon"
+                alt={t.altHome}
                 className="size-[1.2em] hover:text-white"
               />
-              Home
+              {t.home}
             </a>
           </li>
 
@@ -46,10 +51,10 @@ export function MenuButton() {
             >
               <img
                 src="/Pictures/folder-code.svg"
-                alt="folder code icon"
+                alt={t.altSeeProjects}
                 className="size-[1.2em] "
               />
-              See projects
+              {t.seeProjects}
             </a>
           </li>
           <li>
@@ -59,10 +64,10 @@ export function MenuButton() {
             >
               <img
                 src="/Pictures/file-user.svg"
-                alt="resume file icon"
+                alt={t.altCurriculum}
                 className="size-[1.2em] "
               />
-              Resume
+              {t.curriculum}
             </a>
           </li>
         </ul>
