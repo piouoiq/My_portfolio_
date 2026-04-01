@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import { MenuButtonTranslations } from "../../Data/Translations";
+import { MenuButtonTranslations } from "../Translations/Translations";
 import { useLang } from "./Sections/LangContext";
 
 export function MenuButton() {

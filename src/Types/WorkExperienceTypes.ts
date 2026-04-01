@@ -1,6 +1,8 @@
+import type { LocalizedText } from "./StudiesTypes";
+
 export interface workExperience {
   date: string;
-  title: string;
-  location: string;
-  description: string;
+  title: LocalizedText;
+  location: LocalizedText;
+  description: LocalizedText;
 }

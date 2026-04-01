@@ -1,7 +1,7 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import { useLang } from "../Components/Sections/LangContext";
-import { notFoundTranslations } from "../../Data/Translations";
+import { notFoundTranslations } from "../Translations/Translations";
 
 export default function NotFound() {
   const { lang } = useLang();

@@ -2,7 +2,7 @@ import { SoftSkillCard } from "../Cards/SoftSkillsCard";
 import { Langages } from "../../../Data/languages";
 import { OtherInfos } from "../../../Data/OtherInfos";
 import { useLang } from "../Sections/LangContext";
-import { sectionHeadersTranslations } from "../../../Data/Translations";
+import { sectionHeadersTranslations } from "../../Translations/CurriculumTranslations";
 
 export const OtherInfosSection = () => {
   const { lang } = useLang();

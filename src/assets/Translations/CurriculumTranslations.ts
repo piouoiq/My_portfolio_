@@ -1,0 +1,61 @@
+export const softSkillsTranslations = {
+  fr: {
+    easedCommunication: "Communication aisée",
+    adaptabilitCuriosity: "Adaptabilité & Curiosité",
+    autonomyPerseverance: "Autonomie & Persévérance",
+    organization: "Organisation",
+    teamwork: "Travail en équipe",
+    senseOfService: "Sens du service",
+    analyticalMind: "Esprit analytique",
+    responsiveDesign: "Responsive design",
+    accessibilityGoodPractices: "Accessibilité & bonnes pratiques",
+    frenchNative: "Français : langue maternelle",
+    englishC1: "Anglais : C1 (CECRL)",
+    koreanA2: "Coréen : A2 (CECRL)",
+    italianSelfTeaching: "Italien : Auto-apprentissage",
+    germanSelfTeaching: "Allemand : Auto-apprentissage",
+    sportsBodybuilding: "Sport (Musculation)",
+    volunteeringPride: "Bénévolat - Marche des Fiertés de Nantes",
+    militantWebsite: "Conception et développement d'un site militant",
+    creativeHobbies:
+      "Loisirs créatifs et manuels (crochet, peinture, couture, etc.)",
+    travelsEuropeMarocCanada: "Voyages (Europe, Maroc, Canada)",
+  },
+  en: {
+    easedCommunication: "Eased communication",
+    adaptabilitCuriosity: "Adaptability & Curiosity",
+    autonomyPerseverance: "Autonomy & Perseverance",
+    organization: "Organization",
+    teamwork: "TeamWork",
+    senseOfService: "Sense of service",
+    analyticalMind: "Analytical Mind",
+    responsiveDesign: "Responsive design",
+    accessibilityGoodPractices: "Accessibility & good practices",
+    frenchNative: "French: Native Tongue",
+    englishC1: "English: C1 (CECRL guide)",
+    koreanA2: "Korean: A2 (CECRL guide)",
+    italianSelfTeaching: "Italian: Self-teaching",
+    germanSelfTeaching: "German: Self-teaching",
+    sportsBodybuilding: "Sports (Bodybuilding)",
+    volunteeringPride: "Volunteering - Nantes's Pride march",
+    militantWebsite: "Conception and Development of an activist website",
+    creativeHobbies:
+      "Creative and manual hobbies (Crochet, painting, sewing, etc.)",
+    travelsEuropeMarocCanada: "Travels (Europe, Morocco, Canada)",
+  },
+};
+
+export const sectionHeadersTranslations = {
+  fr: {
+    languagesSpoken: "Langues parlées:",
+    otherInformations: "Autres informations sur moi:",
+    hardSkills: "Compétences techniques:",
+    softSkills: "Compétences transversales:",
+  },
+  en: {
+    languagesSpoken: "Languages spoken:",
+    otherInformations: "Other information about me:",
+    hardSkills: "Hard skills:",
+    softSkills: "Soft skills:",
+  },
+};

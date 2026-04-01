@@ -1,6 +1,6 @@
 import type { SoftSkillsTypes } from "../../../Types/SoftSkillsTypes";
 import { useLang } from "../Sections/LangContext";
-import { softSkillsTranslations } from "../../../Data/Translations";
+import { softSkillsTranslations } from "../../Translations/CurriculumTranslations";
 
 export const SoftSkillCard = ({ name }: SoftSkillsTypes) => {
   const { lang } = useLang();

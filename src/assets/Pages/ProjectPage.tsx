@@ -1,7 +1,7 @@
 import Header from "../Components/Header";
 import ProjectsSection from "../Components/Sections/ProjectsSection";
 import Footer from "../Components/Footer";
-import { ProjectPageTranslations } from "../../Data/Translations";
+import { ProjectPageTranslations } from "../Translations/Translations";
 import { useLang } from "../Components/Sections/LangContext";
 
 export default function projectPage() {

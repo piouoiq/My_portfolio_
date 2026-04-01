@@ -3,7 +3,7 @@ import { SoftSkills } from "../../../Data/softSkills";
 import { SoftSkillCard } from "../Cards/SoftSkillsCard";
 import { SkillCard } from "../Cards/technology card";
 import { useLang } from "../Sections/LangContext";
-import { sectionHeadersTranslations } from "../../../Data/Translations";
+import { sectionHeadersTranslations } from "../../Translations/CurriculumTranslations";
 
 export const SkillSection = () => {
   const { lang } = useLang();

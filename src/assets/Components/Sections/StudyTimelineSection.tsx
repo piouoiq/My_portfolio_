@@ -1,7 +1,11 @@
 import { TimelineCard } from "../Cards/TimelineCard";
 import { studies } from "../../../Data/Studies";
+import { useLang } from "./LangContext";
 
 export const StudyTimeline = () => {
+  const { lang } = useLang();
+  const locale = lang.toLowerCase() as "fr" | "en";
+
   return (
     <>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
@@ -23,9 +27,9 @@ export const StudyTimeline = () => {
             </div>
             <TimelineCard
               date={key.date}
-              title={key.title}
-              location={key.location}
-              description={key.description}
+              title={key.title[locale]}
+              location={key.location[locale]}
+              description={key.description[locale]}
             />
             <hr className="bg-[#ee8f15]" />
           </li>

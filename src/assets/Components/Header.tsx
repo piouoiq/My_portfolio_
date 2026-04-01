@@ -1,7 +1,7 @@
 import { MenuButton } from "./MenuButton";
 import { LanguageButton } from "./Languagebutton";
 import { useLang } from "../Components/Sections/LangContext";
-import { headerTranslations } from "../../Data/Translations";
+import { headerTranslations } from "../Translations/Translations";
 
 export default function Header() {
   const { lang } = useLang();

@@ -1,4 +1,4 @@
-import { footerTranslations } from "../../Data/Translations";
+import { footerTranslations } from "../Translations/Translations";
 import { useLang } from "./Sections/LangContext";
 
 export default function Footer() {

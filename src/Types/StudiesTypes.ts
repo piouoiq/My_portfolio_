@@ -1,6 +1,11 @@
+export type LocalizedText = {
+  fr: string;
+  en: string;
+};
+
 export interface Studies {
   date: string;
-  title: string;
-  location: string;
-  description: string;
+  title: LocalizedText;
+  location: LocalizedText;
+  description: LocalizedText;
 }

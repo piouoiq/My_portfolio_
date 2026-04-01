@@ -1,7 +1,7 @@
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { useLang } from "../Components/Sections/LangContext";
-import { HomePageTranslations } from "../../Data/Translations";
+import { HomePageTranslations } from "../Translations/Translations";
 
 export default function HomePage() {
   const { lang } = useLang();

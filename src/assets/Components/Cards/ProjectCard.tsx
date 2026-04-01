@@ -3,7 +3,7 @@ import { useLang } from "../Sections/LangContext";
 import {
   projectsTranslations,
   starTranslations,
-} from "../../../Data/Translations";
+} from "../../Translations/ProjectTranslation";
 
 interface ProjectCardProps {
   project: Project;

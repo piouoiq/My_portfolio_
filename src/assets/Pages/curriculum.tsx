@@ -5,7 +5,7 @@ import { WorkTimeline } from "../Components/Sections/workTimelineSection";
 import { SkillSection } from "../Components/Sections/SkillSection";
 import { OtherInfosSection } from "../Components/Sections/OtherInfosSection";
 import { useLang } from "../Components/Sections/LangContext";
-import { curriculumSectionTabTranslations } from "../../Data/Translations";
+import { curriculumSectionTabTranslations } from "../Translations/Translations";
 
 export default function Curriculum() {
   const { lang } = useLang();
